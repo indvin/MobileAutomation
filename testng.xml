@@ -3,9 +3,7 @@
     <test verbose="2" preserve-order="true" name="C:/Vinod_Work/My_REPO_NEW/UiAutomation">
 
         <classes>
-            <class name="LoginTest">
-
-            </class>
+            <class name="LoginTest"></class>
         </classes>
     </test>
 

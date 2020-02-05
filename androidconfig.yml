@@ -1,4 +1,5 @@
 ## Android driver config
 deviceName: Android
-appPath: "C:\\Vinod_Work\\Android_example\\UIAutomationtestApp\\app\\build\\outputs\\apk\\debug\\app-debug.apk"
+#appPath: "C:\\Vinod_Work\\Android_example\\MyTestAutomationApp\\app\\build\\outputs\\apk\\debug\\app-debug.apk"
+appPath: "C:\\Vinod_Work\\My_REPO_NEW\\UiAutomation\\MobileAutomation\\VechicleMilege.apk"
 automationName: UiAutomator2

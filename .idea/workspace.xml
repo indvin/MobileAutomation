@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebb3dc3e-6325-4456-a89a-a736dc1e2c45" name="Default Changelist" comment="" />
+    <list default="true" id="6ccde9e7-7ada-4bdd-9973-1adc4fee5683" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_view.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/foundation/EnvironmentParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/foundation/MobileAutomationDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidconfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/androidconfig.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/foundation/DriverConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/foundation/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MobileDriverParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/foundation/MobileDriverParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UiWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/foundation/UiWebDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DriverConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Environment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MobileAutomationDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MobileDriverParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UiWebDriver$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UiWebDriver$MobileDriverType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UiWebDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -15,14 +50,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1WvwritBXo8gBmcDwFVYKnUkuMs" />
+  <component name="ProjectId" id="1XFQfbg4fbzotxYhVYKREoIXowL" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="foundation" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Vinod_Work\My_REPO_NEW\UiAutomation" />
-      <recent name="C:\Vinod_Work\My_REPO_NEW\UiAutomation\src\main\java" />
+      <recent name="C:\Vinod_Work\My_REPO_NEW\UiAutomation\MobileAutomation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -38,8 +76,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="C:/Vinod_Work/My_REPO_NEW/UiAutomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UiAutomation" />
+    <configuration name="C:/Vinod_Work/My_REPO_NEW/UiAutomation/MobileAutomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MobileAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -50,7 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Vinod_Work/My_REPO_NEW/UiAutomation/testng.xml" />
+        <item itemvalue="TestNG.C:/Vinod_Work/My_REPO_NEW/UiAutomation/MobileAutomation/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -59,12 +97,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ebb3dc3e-6325-4456-a89a-a736dc1e2c45" name="Default Changelist" comment="" />
-      <created>1580043576559</created>
+      <changelist id="6ccde9e7-7ada-4bdd-9973-1adc4fee5683" name="Default Changelist" comment="" />
+      <created>1580639466610</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580043576559</updated>
+      <updated>1580639466610</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
