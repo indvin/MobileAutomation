@@ -24,12 +24,18 @@ public class MobileDriverParser {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"6.0");
+        //capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"6.0");
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"5.1");
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, driverConfig.getDeviceName());
-        capabilities.setCapability(MobileCapabilityType.APP, driverConfig.getAppPath());
+       // capabilities.setCapability(MobileCapabilityType.APP, driverConfig.getAppPath());
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, driverConfig.getAutomationName());
-        capabilities.setCapability("appActivity", "com.dotsofdots.mainmenu.MainMenuActivity");
+        //capabilities.setCapability("appActivity", "com.dotsofdots.mainmenu.MainMenuActivity");
+        //capabilities.setCapability("appActivity","com.android.calendar.event.EditEventActivity");
+        capabilities.setCapability("appPackage", "com.google.android.calendar");
 
+
+        capabilities.setCapability("appActivity","com.android.calendar.AllInOneActivity");
+       //com.google.android.calendar/com.android.calendar.AllInOneActivity
         return new AndroidDriver<MobileElement>(new URL(Environment.URL), capabilities);
     }
 

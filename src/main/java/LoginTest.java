@@ -16,12 +16,17 @@ public class LoginTest {
 
         System.out.println("******&&&&&&&&&&&&&&&****");
         driver =  UiWebDriver.getDriverInstance(UiWebDriver.MobileDriverType.DriveTypeAndroid);
-        System.out.println("******&&&&&&&&&&&&&&&****"+driver);
+        System.out.println("is valid driver  ******&&&&&&&&&&&&&&&****"+driver);
         Thread.sleep(10000);
     }
 
     @Test
-    public void scrollMenu() throws InterruptedException {
+    public void testCalc() {
+        driver.launchApp();
+    }
+
+   // @Test
+    public void scrollMenu1() throws InterruptedException {
 
         Actions actions = new Actions(driver);
 
